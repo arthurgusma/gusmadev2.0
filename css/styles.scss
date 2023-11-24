@@ -113,7 +113,7 @@ section {
   }
   
   .tooltip .tooltiptext {
-    visibility: hidden;
+    display: none;
     width: 7.5rem;
     background-color: var(--dark-background);
     color: var(--gray);
@@ -125,5 +125,12 @@ section {
   }
   
   .tooltip:hover .tooltiptext {
-    visibility: visible;
+    display: block;
   }
+
+  @media (max-width: 768px) {
+    .active {
+      display: block;
+    }
+  }
+

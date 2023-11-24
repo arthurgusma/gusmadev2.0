@@ -1,11 +1,7 @@
-const tooltips = document.querySelectorAll('.tooltip');
+document.querySelector('.tooltip').addEventListener('click', toggleTooltip);
 
 function toggleTooltip() {
-  const tooltip = this.querySelector('.tooltiptext');
+  const tooltip = document.querySelector('.tooltiptext');
   
   tooltip.classList.toggle('active');
 }
-
-tooltips.forEach(tooltip => {
-  tooltip.addEventListener('click', toggleTooltip);
-});
