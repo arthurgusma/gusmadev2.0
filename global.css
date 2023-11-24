@@ -7,15 +7,14 @@
   :root {
     --white: #fff;
     --black: #000;
-    --gray: #666666;
+    --gray: #CCCC;
     --light-gray: #D3D3D3;
-    --title: #1572A1;
     --blue-opaque: #7C99AC;
-    --blue-twitter: #2aa9e0;
+    --ligth-blue: #2aa9e0;
     --blue-dark: #141E61;
     --dark-background: #383838;
     --background-button: #505050;
-  
+    --purple: #9F2B68;
   }
   
   @media (max-width: 1080px) {
