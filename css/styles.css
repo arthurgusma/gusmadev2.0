@@ -7,13 +7,13 @@ main {
 }
 
 .profile-img {
-  height: 200px;
-  width: 200px;
+  height: 12.5rem;
+  width: 12.5rem;
   border-radius: 50%;
   filter: gray;
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
-  box-shadow: 0 0 5px 2px var(--gray);
+  box-shadow: 0 0 0.3rem 0.125rem var(--gray);
 }
 
 section {
@@ -42,12 +42,12 @@ section {
   }
 }
 .section-top {
-  padding: 80px 0;
+  padding: 5rem 0;
 }
 
 .section-mid p {
   color: var(--white);
-  max-width: 60%;
+  width: 45%;
 }
 .section-mid h1 {
   font-size: 1.5rem;
@@ -61,7 +61,7 @@ section {
   margin: auto;
 }
 .wrapper-welcome p {
-  margin-top: 80px;
+  margin-top: 5rem;
   text-align: center;
   max-width: 50%;
   color: var(--gray);
@@ -70,12 +70,12 @@ section {
 .section-bottom {
   width: 100%;
   position: fixed;
-  bottom: 30px;
+  bottom: 1.8rem;
   margin: auto;
 }
 .section-bottom a {
-  margin: 5px;
-  padding: 10px;
+  margin: 0.3rem;
+  padding: 0.6rem;
   font-weight: 400;
   color: var(--white);
 }
@@ -101,13 +101,12 @@ section {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
+  width: 7.5rem;
   background-color: var(--dark-background);
   color: var(--gray);
   text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  /* Position the tooltip */
+  border-radius: 0.35rem;
+  padding: 0.3rem 0;
   position: absolute;
   z-index: 1;
 }
