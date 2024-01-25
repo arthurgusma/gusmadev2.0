@@ -188,7 +188,7 @@ section {
   }
 }
 
-@media (max-height: 770px) {
+@media (min-height: 770px) {
   .section-mid {
     margin-top: -200px;
   }
