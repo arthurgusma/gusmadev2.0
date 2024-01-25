@@ -12,26 +12,56 @@
     <meta name="author" content="Arthur Gusmão">
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/menu.css">
     <title>Gusmadev</title>
 </head>
 <body>
     <main>
-        <section class="section-top">
-            <img class="profile-img"src="./public/image/profile.png" alt="Gusmadev foto de perfil">
-        </section>
-        <section class="section-mid">
-            <div class="wrapper-welcome">
-            <h1 class="typing-effect">&lt;h1&gt;Hello, code!&lt;/h1&gt;</h1>
-            <p>
-                "Na minha máquina funciona." - Desenvolvedor profissional há aproximadamente 3 anos.
-                Especialista em front-end, busco aprimorar minhas habilidades e adquirir novas skills.
-            </p>
+        <nav>
+            <div>
+                <b>gusmadev</b>
+                <input type="checkbox" id="burger-menu" class="check-box-menu">
+                <label for="burger-menu" class="label-menu">&#9776; Menu</label>
+                <ul>
+                    <li><a href="#home" class="home">Home</a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/arthur-gusmao-13451017b/" class="linkedin">LinkedIn</a></li>
+                    <li><a target="_blank" href="https://github.com/arthurgusma/" class="github">GitHub</a></li>
+                    <li><a href="#about" class="home">Sobre</a></li>
+                    <a class="portfolio tooltip">Portfolio<span class="tooltiptext">Disponivel em breve.</span></a>
+                </ul>
+            </div>
+        </nav>
+        <section id="home">
+            <div class="section-top">
+                <div class="wrapper-welcome">
+                  <h1 class="typing-effect">&lt;h1&gt;Hello, code!&lt;/h1&gt;</h1>
+                  <p>
+                    "Na minha máquina funciona."
+                  </p>
+                </div>
+            </div>
+            <div class="section-mid">
+                <img class="profile-img"src="./public/image/profile.png" alt="Gusmadev foto de perfil">
             </div>
         </section>
-        <section class="section-bottom">
-            <a target="_blank" href="https://www.linkedin.com/in/arthur-gusmao-13451017b/" class="linkedin">LinkedIn</a>
-            <a target="_blank" href="https://github.com/arthurgusma/" class="github">GitHub</a>
-            <a class="portfolio tooltip">Portfolio<span class="tooltiptext">Disponivel em breve.</span></a>
+        <section id="about">
+            <h2>Sobre mim:</h2>
+            <div class="about-wrapper">
+                <image class="code-img" src="./public/image/coding-image.png" alt="laptop image"/>
+                <div class="text-about">
+                    <h4>Desenvolvedor Front-End, vivendo em São Paulo/Florianópolis. 📍</h4>
+                    <p>
+                        Desenvolvedor profissional há aproximadamente 3 anos,
+                        especialista em front-end, aprimorando minhas habilidades e adquirindo novas skills.
+                    </p>
+                    <b>Principais tecnologias:</b> 
+                    <b>React.js, Next.js</b>
+                </div>
+            </div>
+            <div class="stack">
+                <b>Tech stack:</b>
+                <img src="https://skillicons.dev/icons?i=react,next,js,ts,html,css,tailwind,scss&theme=light" alt="skill-icon">
+            </div>
         </section>
     </main>
     <script src="script.js"></script>
