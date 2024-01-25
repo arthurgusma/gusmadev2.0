@@ -1,0 +1,152 @@
+nav {
+    background-color: #f9f9f9;
+    color: #b2b2b2;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 2px 20px var(--gray);
+    padding: 25px;
+}
+  
+nav b {
+    color: #404040;
+    font-size: 1.2rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    gap: 1rem;
+    list-style: none;
+}
+
+li {
+    margin: 0 15px;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.linkedin:hover {
+    color: var(--ligth-blue);
+}
+
+.github:hover {
+    color: var(--blue-opaque);
+}
+
+.portfolio:hover {
+    color: var(--purple);
+    cursor: not-allowed;
+}
+
+.home:hover {
+    color: var(--dark-background)
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+  
+.tooltip .tooltiptext {
+    display: none;
+    width: 7.5rem;
+    background-color: var(--dark-background);
+    color: var(--gray);
+    text-align: center;
+    border-radius: 0.35rem;
+    padding: 0.3rem 0;
+    position: absolute;
+    z-index: 1;
+}
+  
+.tooltip:hover .tooltiptext {
+    display: block;
+}
+
+#menu-button {
+    display: none;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    display: none;
+}
+
+#burger-menu {
+    display: none;
+}
+
+.label-menu {
+    display: none;
+}
+  
+@media (max-width: 768px) {
+    .active {
+      display: block;
+    }
+
+}
+  
+@media only screen and (max-width: 768px) {
+    ul {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        width: 150px;
+        position: absolute;
+        top: 88px;
+        right: 0;
+        background-color: #c8c8c8;
+        padding-bottom: 1rem;
+    }
+
+    ul.active {
+        display: flex;
+    }
+
+    li {
+        margin: 15px 0;
+    }
+
+    a {
+        width: 100%;
+        color: #404040;
+    }
+
+    .label-menu {
+        display: block;
+    }
+
+    #burger-menu:checked + label + ul {
+        display: flex;
+    }
+
+    #burger-menu:checked + label {
+        background-color: #c8c8c8;
+    }
+
+    label {
+        display: block;
+        background-color: #c8c8c8;
+        color: black;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+    }
+}
