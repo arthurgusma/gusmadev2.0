@@ -9,7 +9,7 @@ function toggleTooltip() {
 const checkbox = document.getElementById('burger-menu');
 
 document.body.addEventListener('click', function(event) {
-    if (event.target !== checkbox) {
+    if (event.target !== checkbox && !event.target.closest('.portfolio')) {
         checkbox.checked = false;
     }
 });
