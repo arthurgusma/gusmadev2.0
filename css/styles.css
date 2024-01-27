@@ -142,12 +142,6 @@ section {
 }
 
 @media (max-width: 770px) {
-  .typing-effect {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 770px) {
   #home {
     display: grid;
     align-items: center;
@@ -177,6 +171,10 @@ section {
     margin: auto;
   }
 
+  .typing-effect {
+    font-size: 1.5rem;
+  }
+
   .stack {
     display: grid;
     align-items: center;
@@ -188,7 +186,7 @@ section {
   }
 }
 
-@media (min-height: 700px) {
+@media screen and (min-height: 700px) and (max-width: 770px) {
   .section-mid {
     margin-top: -150px;
   }
@@ -198,7 +196,7 @@ section {
   }
 }
 
-@media (min-height: 500px) {
+@media screen and (min-height: 500px) and (max-width: 770px) {
   .section-mid {
     margin-top: -150px;
   }
@@ -208,7 +206,7 @@ section {
   }
 }
 
-@media (min-height: 800px) {
+@media screen and (min-height: 800px) and (max-width: 770px) {
   .section-mid {
     margin-top: -250px;
   }
@@ -218,7 +216,7 @@ section {
   }
 }
 
-@media (min-height: 900px) {
+@media screen and (min-height: 900px) and (max-width: 770px) {
   .section-mid {
     margin-top: -280px;
   }
