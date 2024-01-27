@@ -188,13 +188,47 @@ section {
   }
 }
 
-@media (min-height: 770px) {
+@media (min-height: 700px) {
   .section-mid {
     margin-top: -150px;
   }
 
   #about h2 {
   top: 50px;
+  }
+}
+
+@media (min-height: 500px) {
+  .section-mid {
+    margin-top: -150px;
+  }
+
+  #about h2 {
+    top: 70px;
+  }
+}
+
+@media (min-height: 800px) {
+  .section-mid {
+    margin-top: -250px;
+  }
+
+  #about h2 {
+    top: 150px;
+  }
+}
+
+@media (min-height: 900px) {
+  .section-mid {
+    margin-top: -280px;
+  }
+
+  #about h2 {
+    top: 150px;
+  }
+
+  .text-about {
+    margin-top: 50px;
   }
 }
 
