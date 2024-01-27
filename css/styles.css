@@ -188,7 +188,7 @@ section {
 
 @media screen and (min-height: 700px) and (max-width: 770px) {
   .section-mid {
-    margin-top: -150px;
+    margin-top: -250px;
   }
 
   #about h2 {
@@ -198,7 +198,7 @@ section {
 
 @media screen and (min-height: 500px) and (max-width: 770px) {
   .section-mid {
-    margin-top: -150px;
+    margin-top: -250px;
   }
 
   #about h2 {
