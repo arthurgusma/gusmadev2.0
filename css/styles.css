@@ -186,6 +186,53 @@ section {
   }
 }
 
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-top: 50px;
+}
+
+#portfolio {
+  background-color: #F5EEE6;
+  padding: 50px 0;
+  display: grid;
+}
+
+#portfolio h2 {
+   margin-inline: auto;
+}
+
+.project {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.project .view-site {
+  display: block;
+  margin-top: 10px;
+  color: #1F509A;
+  font-weight: bold;
+}
+
+.project .view-site:hover {
+  opacity: 0.8;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.project-description {
+  margin-top: 10px;
+}
+.project-description h2 {
+  margin: 0 0 10px;
+}
+
 @media screen and (min-height: 700px) and (max-width: 770px) {
   .section-mid {
     margin-top: -250px;
