@@ -2,7 +2,7 @@
 
 Welcome to GusmaDev's personal page! This website serves as a showcase for my projects, skills, and interests.
 
-![](gusmadev.png)
+![](public/image/gusmadev.png)
 
 ## Table of Contents
 - [Introduction](#introduction)
