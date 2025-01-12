@@ -49,7 +49,7 @@ a {
 
 .portfolio:hover {
     color: var(--purple);
-    cursor: not-allowed;
+    cursor: pointer;
 }
 
 .home:hover {
